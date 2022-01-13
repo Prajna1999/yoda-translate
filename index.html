@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="https://img.icons8.com/bubbles/100/000000/banana.png"   type="image/x-icon">
+    <title>Banana Speaks</title>
+    <style>
+        body{
+            font-family: "Happy Monkey", sans-serif;
+            /* margin: 0; */
+            box-sizing: border-box;
+        }
+        #output{
+            height: 10vh;
+            width: 30%;
+            border: 1px solid black;
+            padding: 1rem;
+            margin-top: 1rem;
+            /* margin: 1rem; */
+        }
+        textarea{
+            height: 10vh;
+            width: 30%;
+            /* margin: 1rem; */
+            padding: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        #output-text{
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Talk Banana</h1>
+    <textarea placeholder="Put your line in English here"
+    id="text-input" cols="50" rows="10">
+    
+    </textarea>
+    <button style="display: block;" id="button-translate">Translate</button>
+    <div id="output-text">Output will be here</div>
+    <div id="output"></div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
